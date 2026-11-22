@@ -1,0 +1,10 @@
+import { useSearchParams, Link } from 'react-router-dom';
+import { ArrowUpRight, MapPin, Phone, Mail, MessageCircle } from 'lucide-react';
+import { PageMeta } from '../components/seo/PageMeta';
+import { WhatsAppButton } from '../components/contact/WhatsAppButton';
+
+export function ContactPage() {
+  const [params] = useSearchParams();
+  const subject = params.get('objet') ?? '';
+  return <><PageMeta title="Contact" description="Contactez AUTO MOTO PRESTIGE pour échanger au sujet de votre projet automobile ou moto." /><section className="contact-hero"><span className="eyebrow">À VOTRE ÉCOUTE <i /></span><h1>Une envie, une question ?<br /><em>Écrivons la suite.</em></h1><p>Notre équipe sera ravie d’échanger avec vous au sujet de votre projet automobile ou moto.</p></section><section className="contact-layout"><div className="contact-panel"><span className="eyebrow">PRENONS CONTACT</span><h2>Parlons de<br /><em>votre projet.</em></h2><p>Les coordonnées officielles seront ajoutées ici dès qu’elles seront communiquées. En attendant, vous pouvez préparer votre demande.</p><div className="contact-items"><div><Phone /><span><b>Téléphone</b><small>À renseigner</small></span></div><div><MessageCircle /><span><b>WhatsApp</b><small>Numéro à renseigner</small></span></div><div><Mail /><span><b>Adresse e-mail</b><small>À renseigner</small></span></div><div><MapPin /><span><b>Adresse / showroom</b><small>À renseigner</small></span></div></div></div><div className="contact-card"><div className="contact-card-icon"><Mail /></div><span className="eyebrow">VOTRE DEMANDE</span><h3>Préparons votre<br />prochain départ.</h3><p>Pour recevoir vos messages, nous devons d’abord renseigner une adresse e-mail commerciale. Vous pouvez nous retrouver dans le catalogue en attendant.</p>{subject && <div className="subject-preview"><span>OBJET DE VOTRE DEMANDE</span><b>{subject}</b></div>}<Link className="button button-gold" to="/catalogue">Explorer les véhicules <ArrowUpRight size={17} /></Link><WhatsAppButton /></div></section><section className="contact-footnote"><p>Coordonnées commerciales à compléter avant mise en ligne.</p></section></>;
+}
