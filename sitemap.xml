@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Remplacer auto-moto-prestige.vercel.app par le domaine définitif si nécessaire. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://auto-moto-prestige.vercel.app/</loc><lastmod>2026-11-22</lastmod></url>
+  <url><loc>https://auto-moto-prestige.vercel.app/catalogue.html</loc><lastmod>2026-11-22</lastmod></url>
+  <url><loc>https://auto-moto-prestige.vercel.app/a-propos.html</loc><lastmod>2026-11-22</lastmod></url>
+  <url><loc>https://auto-moto-prestige.vercel.app/contact.html</loc><lastmod>2026-11-22</lastmod></url>
+  <url><loc>https://auto-moto-prestige.vercel.app/vehicules/berline-elegance-exemple.html</loc><lastmod>2026-11-22</lastmod></url>
+  <url><loc>https://auto-moto-prestige.vercel.app/vehicules/moto-routiere-exemple.html</loc><lastmod>2026-11-22</lastmod></url>
+  <url><loc>https://auto-moto-prestige.vercel.app/vehicules/suv-prestige-exemple.html</loc><lastmod>2026-11-22</lastmod></url>
+  <url><loc>https://auto-moto-prestige.vercel.app/vehicules/moto-roadster-exemple.html</loc><lastmod>2026-11-22</lastmod></url>
+</urlset>

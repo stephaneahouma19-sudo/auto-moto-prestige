@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Ajoutez la ligne suivante avec votre domaine définitif :
+# Sitemap: https://votre-domaine.vercel.app/sitemap.xml

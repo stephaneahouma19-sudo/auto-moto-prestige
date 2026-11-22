@@ -1,16 +1,158 @@
 <!doctype html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#111c27" />
-    <meta name="description" content="AUTO MOTO PRESTIGE — automobiles et motos de caractère. Découvrez notre sélection et parlons de votre projet." />
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="AUTO MOTO PRESTIGE" />
-    <title>AUTO MOTO PRESTIGE — L’art de la belle mécanique</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#111c27" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <title>AUTO MOTO PRESTIGE — L’art de la belle mécanique</title>
+  <meta name="description" content="AUTO MOTO PRESTIGE — automobiles et motos de caractère. Découvrez notre sélection et parlons de votre projet." />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="AUTO MOTO PRESTIGE" />
+  <meta property="og:title" content="AUTO MOTO PRESTIGE — L’art de la belle mécanique" />
+  <meta property="og:description" content="AUTO MOTO PRESTIGE — automobiles et motos de caractère. Découvrez notre sélection et parlons de votre projet." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body id="top">
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <header class="site-header"><div class="header-inner"><a class="brand" href="index.html" aria-label="AUTO MOTO PRESTIGE — accueil"><span class="brand-mark">A<span>·</span>P</span><span class="brand-name">AUTO MOTO <b>PRESTIGE</b></span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-label="Ouvrir le menu" aria-controls="main-nav"><svg class="icon-menu" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"></path></svg><svg class="icon-close" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"></path></svg></button><nav class="main-nav" id="main-nav" aria-label="Navigation principale"><a href="index.html" class="active" aria-current="page">Accueil</a><a href="catalogue.html">Le catalogue</a><a href="a-propos.html">Notre maison</a><a href="contact.html">Contact</a><a class="nav-cta" href="contact.html">Parlons de votre projet <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"></path></svg></a></nav></div></header>
+
+  <main id="contenu">
+    <!-- Accueil -->
+    <section class="hero">
+      <div class="hero-image"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <span class="eyebrow hero-eyebrow"><i></i> L’ART DE LA BELLE MÉCANIQUE</span>
+        <h1>Le prestige<br /><em>se vit en mouvement.</em></h1>
+        <p>Des automobiles de caractère. Des motos qui donnent envie de prendre la route. Le goût des belles choses, tout simplement.</p>
+        <div class="hero-actions">
+          <a class="button button-gold" href="catalogue.html">Explorer le catalogue <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"></path></svg></a>
+          <a class="button button-ghost" href="a-propos.html">Découvrir notre maison</a>
+        </div>
+        <div class="hero-note"><span class="note-line"></span><span>Une sélection à votre image</span></div>
+      </div>
+      <a href="#selection" class="hero-scroll" aria-label="Défiler vers la sélection"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M19 12l-7 7-7-7"></path></svg></a>
+      <div class="hero-index"><span>01</span><i></i><span>04</span></div>
+    </section>
+
+    <section class="trust-strip">
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"></path><path d="m9 12 2 2 4-4"></path></svg> Un accompagnement attentif</span>
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9L12 3Z"></path><path d="M19 17v4M17 19h4"></path></svg> Une sélection de caractère</span>
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="m16.2 7.8-2.4 6.6-6.6 2.4 2.4-6.6 6.6-2.4Z"></path></svg> La passion du détail</span>
+    </section>
+
+    <!-- Véhicules à la une -->
+    <section id="selection" class="section featured-section">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">SÉLECTION SIGNATURE <i></i></span>
+          <h2>Le goût des <em>belles lignes.</em></h2>
+          <p>Découvrez notre sélection de véhicules de démonstration.</p>
+        </div>
+        <a href="catalogue.html" class="text-link">Tout le catalogue <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+      </div>
+      <div class="demo-notice"><span>À TITRE DE DÉMONSTRATION</span> Ces fiches et leurs tarifs sont fictifs. Les véhicules réels seront présentés après renseignement des annonces.</div>
+
+      <div class="vehicle-grid">
+        <article class="vehicle-card">
+          <a class="card-image" href="vehicules/berline-elegance-exemple.html">
+            <img src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1400&q=85" alt="Mercedes-Benz Classe E · Ligne Élégance" loading="lazy" onerror="this.style.display='none'" />
+            <span class="demo-tag">Visuel démo</span>
+            <span class="image-arrow"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"></path></svg></span>
+          </a>
+          <div class="card-content">
+            <div class="card-kicker">AUTOMOBILE <span>·</span> OCCASION</div>
+            <div class="card-badges"><span class="status-badge status-badge--disponible">Disponible</span></div>
+            <a class="card-title" href="vehicules/berline-elegance-exemple.html"><h3>Mercedes-Benz Classe E · Ligne Élégance</h3></a>
+            <div class="card-specs">
+              <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"></rect><path d="M16 2v4M8 2v4M3 10h18"></path></svg> 2022</span>
+              <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 14 4-4"></path><path d="M3.34 19a10 10 0 1 1 17.32 0"></path></svg> 28 000 km</span>
+            </div>
+            <div class="card-bottom">
+              <strong>18 500 000 FCFA</strong>
+              <a class="whatsapp-button" data-wa-message="Bonjour, j'aimerais savoir si vous avez des camions à votre disposition. Je m'intéresse à Mercedes-Benz Classe E · Ligne Élégance." href="https://wa.me/?text=Bonjour%2C%20j'aimerais%20savoir%20si%20vous%20avez%20des%20camions%20%C3%A0%20votre%20disposition.%20Je%20m'int%C3%A9resse%20%C3%A0%20Mercedes-Benz%20Classe%20E%20%C2%B7%20Ligne%20%C3%89l%C3%A9gance." target="_blank" rel="noreferrer" aria-label="Demander des informations sur Mercedes-Benz Classe E · Ligne Élégance"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 8.5 8.5 0 0 1-3.8-.9L3 21l1.9-5.2a8.4 8.4 0 0 1-.9-3.8 8.4 8.4 0 0 1 8.4-9 8.4 8.4 0 0 1 9 8.5Z"></path></svg> WhatsApp</a>
+            </div>
+            <p class="demo-disclaimer">Annonce fictive · prix indicatif</p>
+          </div>
+        </article>
+
+        <article class="vehicle-card">
+          <a class="card-image" href="vehicules/moto-routiere-exemple.html">
+            <img src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1400&q=85" alt="BMW R 1250 · Esprit Touring" loading="lazy" onerror="this.style.display='none'" />
+            <span class="demo-tag">Visuel démo</span>
+            <span class="image-arrow"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"></path></svg></span>
+          </a>
+          <div class="card-content">
+            <div class="card-kicker">MOTO <span>·</span> OCCASION</div>
+            <div class="card-badges"><span class="status-badge status-badge--vendu">Vendu</span></div>
+            <a class="card-title" href="vehicules/moto-routiere-exemple.html"><h3>BMW R 1250 · Esprit Touring</h3></a>
+            <div class="card-specs">
+              <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"></rect><path d="M16 2v4M8 2v4M3 10h18"></path></svg> 2023</span>
+              <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 14 4-4"></path><path d="M3.34 19a10 10 0 1 1 17.32 0"></path></svg> 6 400 km</span>
+            </div>
+            <div class="card-bottom">
+              <strong>4 200 000 FCFA</strong>
+              <a class="whatsapp-button" data-wa-message="Bonjour, j'aimerais savoir si vous avez des camions à votre disposition. Je m'intéresse à BMW R 1250 · Esprit Touring." href="https://wa.me/?text=Bonjour%2C%20j'aimerais%20savoir%20si%20vous%20avez%20des%20camions%20%C3%A0%20votre%20disposition.%20Je%20m'int%C3%A9resse%20%C3%A0%20BMW%20R%201250%20%C2%B7%20Esprit%20Touring." target="_blank" rel="noreferrer" aria-label="Demander des informations sur BMW R 1250 · Esprit Touring"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 8.5 8.5 0 0 1-3.8-.9L3 21l1.9-5.2a8.4 8.4 0 0 1-.9-3.8 8.4 8.4 0 0 1 8.4-9 8.4 8.4 0 0 1 9 8.5Z"></path></svg> WhatsApp</a>
+            </div>
+            <p class="demo-disclaimer">Annonce fictive · prix indicatif</p>
+          </div>
+        </article>
+
+        <article class="vehicle-card">
+          <a class="card-image" href="vehicules/suv-prestige-exemple.html">
+            <img src="https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=1400&q=85" alt="Range Rover Velar · Signature" loading="lazy" onerror="this.style.display='none'" />
+            <span class="demo-tag">Visuel démo</span>
+            <span class="image-arrow"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"></path></svg></span>
+          </a>
+          <div class="card-content">
+            <div class="card-kicker">AUTOMOBILE <span>·</span> OCCASION</div>
+            <div class="card-badges"><span class="status-badge status-badge--disponible">Disponible</span></div>
+            <a class="card-title" href="vehicules/suv-prestige-exemple.html"><h3>Range Rover Velar · Signature</h3></a>
+            <div class="card-specs">
+              <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"></rect><path d="M16 2v4M8 2v4M3 10h18"></path></svg> 2021</span>
+              <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 14 4-4"></path><path d="M3.34 19a10 10 0 1 1 17.32 0"></path></svg> 31 500 km</span>
+            </div>
+            <div class="card-bottom">
+              <strong>24 750 000 FCFA</strong>
+              <a class="whatsapp-button" data-wa-message="Bonjour, j'aimerais savoir si vous avez des camions à votre disposition. Je m'intéresse à Range Rover Velar · Signature." href="https://wa.me/?text=Bonjour%2C%20j'aimerais%20savoir%20si%20vous%20avez%20des%20camions%20%C3%A0%20votre%20disposition.%20Je%20m'int%C3%A9resse%20%C3%A0%20Range%20Rover%20Velar%20%C2%B7%20Signature." target="_blank" rel="noreferrer" aria-label="Demander des informations sur Range Rover Velar · Signature"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 8.5 8.5 0 0 1-3.8-.9L3 21l1.9-5.2a8.4 8.4 0 0 1-.9-3.8 8.4 8.4 0 0 1 8.4-9 8.4 8.4 0 0 1 9 8.5Z"></path></svg> WhatsApp</a>
+            </div>
+            <p class="demo-disclaimer">Annonce fictive · prix indicatif</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Présentation de l'entreprise -->
+    <section class="home-story">
+      <div class="story-image" role="img" aria-label="Route bordée de paysages au coucher du soleil"></div>
+      <div class="story-copy">
+        <span class="eyebrow">L’ESPRIT AMP <i></i></span>
+        <h2>Le plaisir de choisir.<br /><em>La sérénité en plus.</em></h2>
+        <p>Un véhicule raconte une histoire. La vôtre mérite un choix fait avec attention, transparence et passion.</p>
+        <a href="a-propos.html" class="text-link">Rencontrer AUTO MOTO PRESTIGE <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="closing-cta">
+      <span class="eyebrow">VOTRE PROCHAIN DÉPART</span>
+      <h2>Et si nous trouvions<br /><em>votre prochain coup de cœur ?</em></h2>
+      <a class="button button-gold" href="contact.html">Parlons de votre projet <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"></path></svg></a>
+      <p class="small-note">Ou écrivez-nous directement sur WhatsApp :</p>
+      <a class="whatsapp-button" data-wa-message="Bonjour, j'aimerais savoir si vous avez des camions à votre disposition." href="https://wa.me/?text=Bonjour%2C%20j'aimerais%20savoir%20si%20vous%20avez%20des%20camions%20%C3%A0%20votre%20disposition." target="_blank" rel="noreferrer" aria-label="Nous contacter sur WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 8.5 8.5 0 0 1-3.8-.9L3 21l1.9-5.2a8.4 8.4 0 0 1-.9-3.8 8.4 8.4 0 0 1 8.4-9 8.4 8.4 0 0 1 9 8.5Z"></path></svg> WhatsApp</a>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-main"><div class="footer-brand"><a class="brand" href="index.html"><span class="brand-mark">A<span>·</span>P</span><span class="brand-name">AUTO MOTO <b>PRESTIGE</b></span></a><p>Une autre idée de l’automobile.<br />Le goût des belles mécaniques.</p></div><div class="footer-links"><span class="eyebrow">EXPLORER</span><a href="catalogue.html">Le catalogue</a><a href="a-propos.html">Notre maison</a><a href="contact.html">Nous contacter</a></div><div class="footer-contact"><span class="eyebrow">À VOTRE ÉCOUTE</span><p>Notre équipe est disponible<br />pour vous accompagner.</p><a href="contact.html" class="footer-cta">Écrivez-nous <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"></path></svg></a></div></div><div class="footer-bottom"><span>© <span data-year>2026</span> AUTO MOTO PRESTIGE</span><span>Les annonces présentées sur ce site sont des visuels de démonstration.</span><a href="#top">Retour en haut ↑</a></div></footer>
+
+  <a class="whatsapp-button whatsapp-floating" data-wa-message="Bonjour, j'aimerais savoir si vous avez des camions à votre disposition." href="https://wa.me/?text=Bonjour%2C%20j'aimerais%20savoir%20si%20vous%20avez%20des%20camions%20%C3%A0%20votre%20disposition." target="_blank" rel="noreferrer" aria-label="Nous contacter sur WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 8.5 8.5 0 0 1-3.8-.9L3 21l1.9-5.2a8.4 8.4 0 0 1-.9-3.8 8.4 8.4 0 0 1 8.4-9 8.4 8.4 0 0 1 9 8.5Z"></path></svg> WhatsApp</a>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/ui.js"></script>
+  <script src="assets/js/whatsapp.js"></script>
+</body>
 </html>
